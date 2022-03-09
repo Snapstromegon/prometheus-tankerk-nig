@@ -1,0 +1,17 @@
+{
+  "name": "prometheus-tankerkoenig",
+  "version": "1.0.0",
+  "description": "A prometheus exporter for the tankerkoenig api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Raphael Höser",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.27.4",
+    "undici": "^4.15.1",
+    "yargs": "^17.3.1"
+  }
+}
